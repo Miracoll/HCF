@@ -28,7 +28,7 @@ int gcd(int a,int b)
         }
         else
             dividend = b,divisor = a;
-    }
+    }//
     while(remainder){
         GCD=remainder;
         remainder = dividend%divisor;
